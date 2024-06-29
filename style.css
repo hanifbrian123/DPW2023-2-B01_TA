@@ -1,0 +1,296 @@
+/*style untuk body*/
+body {
+    text-align: center; /* Mengatur teks agar rata tengah */
+    font-family: Calibri; /* Mengatur font teks ke Calibri */
+    background-color: #D2B48C; /* Mengatur warna latar belakang ke warna coklat */
+}
+
+/*style untuk header*/
+.header {
+    background-color: #A0522D; /* Mengatur warna latar belakang header ke warna coklat tua */
+    border: 3px solid #A0522D; /* Mengatur border header dengan warna yang sama */
+    height: 120px; /* Mengatur tinggi header */
+    display: flex; /* Menggunakan flexbox untuk layout */
+    align-items: center; /* Menyelaraskan item di tengah secara vertikal */
+}
+
+/*style untuk heading 1 yang ada di header*/
+.header h1 {
+    font-size: 45px; /* Mengatur ukuran font judul header */
+    color: #D2B48C; /* Mengatur warna teks judul header */
+    margin: 0px; /* Menghilangkan margin */
+    flex: 1; /* Membuat elemen mengambil ruang yang tersedia */
+    font-family: arial; /* Mengatur font teks ke Arial */
+}
+
+/* style untuk menu */
+.menu {
+    background-color: #F5F5DC; /* Mengatur warna latar belakang menu ke warna krem */
+    border: 3px solid #A0522D; /* Mengatur border menu dengan warna coklat tua */
+}
+
+/* style untuk heading 1 yang ada di dalam menu */
+.menu h1 {
+    background-color: #F5F5DC; /* Mengatur warna latar belakang judul menu */
+    font-size: 15pt; /* Mengatur ukuran font judul menu */
+    word-spacing: 15px; /* Mengatur jarak antar kata */
+}
+
+/* style untuk paragraf yang ada di dalam menu */
+.menu p {
+    font-size: 15pt; /* Mengatur ukuran font paragraf dalam menu */
+}
+
+/* style untuk link yang ada di dalam menu */
+.menu a {
+    text-decoration: underline; /* Mengatur teks link menjadi bergaris bawah */
+    color: #A0522D; /* Mengatur warna teks link */
+}
+
+/* style untuk sidebar */
+.sidebar {
+    background-color: #F5F5DC; /* Mengatur warna latar belakang sidebar */
+    border: 3px solid #A0522D; /* Mengatur border sidebar */
+    height: 100%; /* Mengatur tinggi sidebar */
+    width: 350px; /* Mengatur lebar sidebar */
+    float: left; /* Mengatur sidebar agar mengapung di sebelah kiri */
+    margin-top: 5px; /* Mengatur margin atas sidebar */
+    margin-bottom: 10px; /* Mengatur margin bawah sidebar */
+}
+
+/* style untuk heading 1 yang ada di dalam sidebar */
+.sidebar h1 {
+    color: #A0522D; /* Mengatur warna teks judul sidebar */
+    font-size: 15pt; /* Mengatur ukuran font judul sidebar */
+}
+
+/* style untuk sidebox */
+.sidebox {
+    background-color: #DEB887; /* Mengatur warna latar belakang sidebox */
+    border: 3px solid #A0522D; /* Mengatur border sidebox */
+    margin: 8px; /* Mengatur margin sidebox */
+    margin-bottom: 30px; /* Mengatur margin bawah sidebox */
+}
+
+/* style untuk heading 1 yang ada di dalam sidebox */
+.sidebox h1 {
+    background-color: #A0522D; /* Mengatur warna latar belakang judul sidebox */
+    font-size: 15pt; /* Mengatur ukuran font judul sidebox */
+    color: white; /* Mengatur warna teks judul sidebox */
+    margin: 0px; /* Menghilangkan margin */
+}
+
+/* style untuk gambar yang ada di dalam sidebox */
+.sidebox img {
+    height: 200px; /* Mengatur tinggi gambar dalam sidebox */
+    width: 300px; /* Mengatur lebar gambar dalam sidebox */
+}
+
+/* style untuk link yang ada di dalam sidebox */
+.sidebox a {
+    color: #F5F5DC; /* Mengatur warna teks link dalam sidebox */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+}
+
+/* style untuk konten */
+.content {
+    background-color: #F5F5DC; /* Mengatur warna latar belakang konten */
+    border: 3px solid #A0522D; /* Mengatur border konten */
+    margin-left: 362px; /* Mengatur margin kiri konten */
+    margin-top: 5px; /* Mengatur margin atas konten */
+    margin-bottom: 10px; /* Mengatur margin bawah konten */
+}
+
+/* style untuk heading 1 yang ada di dalam konten */
+.content h1 {
+    background-color: #A0522D; /* Mengatur warna latar belakang judul konten */
+    font-size: 25pt; /* Mengatur ukuran font judul konten */
+    color: white; /* Mengatur warna teks judul konten */
+    margin: 0px; /* Menghilangkan margin */
+}
+
+/* style untuk paragraf yang ada di dalam konten */
+.content p {
+    font-size: 15pt; /* Mengatur ukuran font paragraf dalam konten */
+}
+
+/* style untuk gambar yang ada di dalam konten */
+.content img {
+    height: 450px; /* Mengatur tinggi gambar dalam konten */
+    width: 700px; /* Mengatur lebar gambar dalam konten */
+}
+
+/* style untuk link yang ada di dalam konten */
+.content a {
+    color: #A0522D; /* Mengatur warna teks link dalam konten */
+    text-decoration: underline; /* Mengatur teks link menjadi bergaris bawah */
+    font-size: 30px; /* Mengatur ukuran font link dalam konten */
+}
+
+/* style untuk footer */
+.footer {
+    background-color: #A0522D; /* Mengatur warna latar belakang footer */
+    border: 3px solid #A0522D; /* Mengatur border footer */
+    height: 100%; /* Mengatur tinggi footer */
+    clear: both; /* Mengatur agar elemen ini tidak tumpang tindih dengan elemen float lainnya */
+}
+
+/* style untuk heading 1 yang ada di dalam footer */
+.footer h1 {
+    color: #F5F5DC; /* Mengatur warna teks judul footer */
+    font-size: 20px; /* Mengatur ukuran font judul footer */
+    font-family: arial narrow; /* Mengatur font teks ke Arial Narrow */
+}
+
+/* style untuk heading 1 dan heading 2 dalam konten */
+.content h1, h2 {
+    text-align: center; /* Mengatur teks judul konten menjadi rata tengah */
+    text-transform: uppercase; /* Mengatur teks judul konten menjadi huruf besar */
+}
+
+/* css evaluasi dan about us */
+table {
+    width: 50%; /* Mengatur lebar tabel */
+    margin: 50px auto; /* Mengatur margin atas dan bawah tabel serta membuatnya rata tengah */
+    border-collapse: collapse; /* Menghilangkan jarak antara border tabel */
+    margin-bottom: 120px; /* Mengatur margin bawah tabel */
+    width: 700px; /* Mengatur lebar tabel */
+}
+
+/* style untuk sel header dan sel data dalam tabel */
+th, td {
+    padding: 12px; /* Mengatur padding untuk sel tabel */
+    text-align: left; /* Mengatur teks dalam sel tabel menjadi rata kiri */
+    border: 1px solid black; /* Mengatur border sel tabel menjadi hitam */
+    vertical-align: top; /* Mengatur teks dalam sel tabel menjadi rata atas */
+}
+
+/* style untuk baris genap dalam tabel */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Mengatur warna latar belakang baris genap */
+}
+
+/* style untuk baris saat hover pada tabel */
+tr:hover {
+    background-color: #f1f1f1; /* Mengatur warna latar belakang baris saat kursor berada di atasnya */
+}
+
+/* style untuk daftar dalam sel tabel */
+table ul {
+    padding-left: 12px; /* Mengatur padding kiri untuk daftar dalam tabel */
+    margin-top: 0px; /* Menghilangkan margin atas daftar dalam tabel */
+}
+
+/* style untuk teks keterangan hijau pada evaluasi */
+.tdket {
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+    color: green; /* Mengatur warna teks menjadi hijau */
+    font-size: 20px; /* Mengatur ukuran font teks */
+    font-weight: bold; /* Mengatur teks menjadi tebal */
+}
+
+/* style untuk teks keterangan merah pada evaluasi */
+.tdket1 {
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+    color: red; /* Mengatur warna teks menjadi merah */
+    font-size: 20px; /* Mengatur ukuran font teks */
+    font-weight: bold; /* Mengatur teks menjadi tebal */
+}
+
+/* style untuk sel dalam tabel yang memiliki teks rata tengah */
+.td1 {
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+}
+
+/* style untuk teks kelompok */
+.kelompok {
+    color: black; /* Mengatur warna teks menjadi hitam */
+    font-size: 40px; /* Mengatur ukuran font teks */
+}
+
+/* style untuk pesan kesalahan */
+.errorMessage {
+    font-family: "oswald"; /* Mengatur font teks menjadi Oswald */
+    font-size: 14px; /* Mengatur ukuran font teks */
+    color: red; /* Mengatur warna teks menjadi merah */
+    margin-top: 6px; /* Mengatur margin atas */
+}
+
+/* style untuk textarea */
+.textarea_style {
+    width: 300px; /* Mengatur lebar textarea */
+    height: 130px; /* Mengatur tinggi textarea */
+}
+
+/* style untuk tombol */
+button {
+    width: 100px; /* Mengatur lebar tombol */
+    height: 37px; /* Mengatur tinggi tombol */
+}
+
+/* style untuk input nama, username, dan email */
+.name_uName_email_input {
+    width: 230px; /* Mengatur lebar input teks untuk nama, username, dan email */
+}
+
+/* style untuk gaya font pada judul daftar link */
+.link p {
+    font-weight: bold; /* Mengatur teks menjadi tebal */
+}
+
+/* style untuk posisi font pada daftar link */
+.link ul {
+    text-align: justify; /* Mengatur teks menjadi rata kanan-kiri */
+    margin-bottom: 30px; /* Mengatur margin bawah daftar */
+}
+
+/* style untuk warna, font style, serta ukuran font pada halaman about us bagian daftar link */
+.link li a {
+    color: black; /* Mengatur warna teks link menjadi hitam */
+    font-family: arial; /* Mengatur font teks menjadi Arial */
+    font-size: 15px; /* Mengatur ukuran font teks */
+}
+
+/* style untuk merapikan tampilan pada halaman about us */
+.link .ul_last {
+    margin-bottom: 68px; /* Mengatur margin bawah daftar terakhir */
+}
+
+/* style untuk konten sukses setelah pengiriman form */
+.content_succesfull {
+    background-color: #F5F5DC; /* Mengatur warna latar belakang konten sukses */
+    border: 3px solid #A0522D; /* Mengatur border konten sukses */
+    margin-left: 362px; /* Mengatur margin kiri konten sukses */
+    margin-top: 5px; /* Mengatur margin atas konten sukses */
+    margin-bottom: 10px; /* Mengatur margin bawah konten sukses */
+}
+
+/* style untuk gambar dalam konten sukses */
+.content_succesfull img {
+    width: 210px; /* Mengatur lebar gambar dalam konten sukses */
+}
+
+/* style untuk keterangan pada form */
+.ketInForm {
+    background-color: #A0522D; /* Mengatur warna latar belakang keterangan form */
+    font-size: 13px; /* Mengatur ukuran font keterangan form */
+    color: white; /* Mengatur warna teks keterangan form */
+    margin: 0px; /* Menghilangkan margin */
+    display: block; /* Mengatur elemen menjadi blok */
+}
+
+/* style untuk input PIN */
+.pin {
+    width: 50px; /* Mengatur lebar input untuk PIN */
+}
+
+/* style untuk teks bintang yang berwarna merah */
+.bintang {
+    color: red; /* Mengatur warna teks bintang menjadi merah */
+}
+
+
+/*style untuk list pada sidebox*/
+.sidebox li{
+    text-align: left; /* Mengatur teks menjadi rata kiri */
+}
